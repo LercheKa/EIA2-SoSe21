@@ -3,30 +3,38 @@ html {
     height: 100%;
     display: flex;
     justify-content: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Bahnschrift Light;
+    background-color: rgb(255, 214, 221);
 }
 
 .span {
     border-style: solid;
+    border-color: palevioletred;
     position: fixed;
     padding: 8px;
+    color: palevioletred;
+    background-color: rgb(255, 214, 221);
 }
 
 .div0 {
     border-style: solid;
+    border-color: palevioletred;
     height: 400px;
     width: 350px;
     display: inline-block;
+    background-color: lightpink;
 }
 
 .div1 {
     border-style: solid;
+    border-color: palevioletred;
     height: 400px;
     width: 350px;
     display: inline-block;
+    background-color: lightpink;
 }
 
 h1 {
     text-align: left;
-    color: black;
+    color: palevioletred;
 }
