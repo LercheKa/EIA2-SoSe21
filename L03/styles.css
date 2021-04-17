@@ -4,7 +4,7 @@ html {
     display: flex;
     justify-content: center;
     font-family: Bahnschrift Light;
-    background-color: rgb(255, 214, 221);
+    background-image: linear-gradient(180deg, pink , peachpuff);
 }
 
 .span {
