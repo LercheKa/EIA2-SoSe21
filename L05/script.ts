@@ -49,7 +49,6 @@ namespace Memory {
         if (fontStyle) { 
             card.style.fontFamily = fontStyle.toString();
         }
-
     }
 
     function clickHandler(_event: Event): void {
