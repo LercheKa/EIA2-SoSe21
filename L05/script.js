@@ -64,7 +64,7 @@ var Memory;
         if (cardsOpenArray[0].innerHTML == cardsOpenArray[1].innerHTML) {
             for (let i = 0; i < 2; i++) {
                 cardsOpenArray[i].classList.remove("open");
-                cardsOpenArray[i].classList.add("taken");
+                cardsOpenArray[i].classList.add("done");
             }
             checkRest.splice(0, 2);
         }
